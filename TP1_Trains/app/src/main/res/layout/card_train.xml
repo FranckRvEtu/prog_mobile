@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="20dp"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:id="@+id/card_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/card_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="18dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="Image d'un train"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toStartOf="@id/guideline5"
+                app:layout_constraintTop_toTopOf="@id/guideline4"
+                app:layout_constraintBottom_toBottomOf="@id/guideline4"
+                app:srcCompat="@drawable/tgv_24dp_e8eaed_fill0_wght400_grad0_opsz24" />
+
+            <LinearLayout
+                android:id="@+id/title_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                app:layout_constraintStart_toStartOf="@id/guideline5"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/depart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="17:15 Montpellier"
+                    android:textAppearance="?attr/textAppearanceTitleMedium"
+
+                    />
+
+                <TextView
+                    android:id="@+id/arrivee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="17:57 Beziers"
+                    android:textAppearance="?attr/textAppearanceTitleMedium" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                app:layout_constraintEnd_toStartOf="@id/guideline"
+                android:text="Prix : 12€"
+                android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="310dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.08" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/timer_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+                android:contentDescription="Durée du trajet"
+                android:layout_gravity="center_vertical"
+                />
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="47 minutes"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:id="@+id/train_type"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="TGV"
+                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                android:gravity="center_vertical"
+                android:layout_marginStart="50dp"/>
+            
+            <ImageView
+                android:id="@+id/wifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wifi_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+                android:layout_marginStart="80dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Wifi logo"
+                />
+
+            <ImageView
+                android:id="@+id/food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fastfood_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+                android:scaleType="centerCrop"
+                android:contentDescription="foof logo"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

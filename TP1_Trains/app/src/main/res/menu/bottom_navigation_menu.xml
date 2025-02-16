@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/travel_button"
+        android:title="@string/travel"
+        android:enabled="true"
+        android:icon="@drawable/search_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+        />
+    <item
+        android:id="@+id/reservation_button"
+        android:title="@string/reservation"
+        android:enabled="true"
+        android:icon="@drawable/qr_code_2_24dp_e8eaed_fill0_wght400_grad0_opsz24"/>
+
+
+    <item
+        android:id="@+id/account_button"
+        android:title="@string/account"
+        android:enabled="true"
+        android:icon="@drawable/account_circle_24dp_e8eaed_fill0_wght400_grad0_opsz24"/>
+
+</menu>

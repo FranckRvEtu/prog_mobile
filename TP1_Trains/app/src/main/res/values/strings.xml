@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">trains</string>
+    <string name="departure_label">Départ</string>
+    <string name="arrival_label">Arrivée</string>
+    <string name="search_button">Voir les prix</string>
+    <string name="first_date_label">Aller</string>
+    <string name="second_date_label">Dernière date</string>
+    <string name="at">à</string>
+    <string name="search">Chercher des trains</string>
+    <string name="sales">Offres</string>
+    <string name="travel">Voyager</string>
+    <string name="account">Compte</string>
+    <string name="snack_error">Cette fonctionalité n\'est pas disponible dans cette interface graphique !</string>
+    <string name="reservation">Reservations</string>
+    <string name="welcome">Choisissez un lieu de départ, d\'arrivée, choisissez vos dates et laissez nous faire…</string>
+    <string name="fab_text">Ajouter au panier</string>
+</resources>

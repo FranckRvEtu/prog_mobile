@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drag_handle"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/add_bouton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ajout"
+            android:padding="25dp"
+            android:textAlignment="viewStart"
+            app:icon="@drawable/add_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+            app:strokeColor="@color/white"
+            android:textColor="@color/white"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/consult_bouton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/consultation"
+            android:textAlignment="viewStart"
+            android:padding="25dp"
+            android:textColor="@color/white"
+            app:icon="@drawable/search_24dp_e8eaed_fill0_wght400_grad0_opsz24"
+            />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

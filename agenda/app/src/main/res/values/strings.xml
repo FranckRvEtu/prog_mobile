@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">agenda</string>
+    <string name="consultation">Consulter les évenements</string>
+    <string name="ajout">Ajouter un évenement</string>
+    <string name="creation_title">Créer un évènement</string>
+    <string name="creation_hint">Nom de l\'évènement</string>
+    <string name="category">Sélectionner une catégorie</string>
+    <string name="validation">Enregistrer</string>
+    <string name="welcome">Bonjour ! Nous sommes le </string>
+    <string name="description_hint">Ajouter une description (optionnel)</string>
+</resources>
