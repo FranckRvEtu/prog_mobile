@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_name">Enter your name</string>
+    <string name="label_firstname">Enter your firstname</string>
+    <string name="label_age">Enter your age</string>
+    <string name="label_skills">Enter your most skilled field</string>
+    <string name="label_phone">Enter your phone number</string>
+    <string name="valid_button">Validate</string>
+    <string name="confirm_button">I confirm</string>
+    <string name="hint_name">Doe</string>
+    <string name="hint_firstname">John</string>
+    <string name="hint_age">60</string>
+    <string name="hint_skills">Student</string>
+    <string name="hint_phone">XXXXXXXXX</string>
+    <string name="dialog_title">Do you confirm those indos ?</string>
+    <string name="positive_button">Confirm</string>
+    <string name="negative_button">Go back</string>
+    <string name="name_text">Your Name</string>
+    <string name="firstname_text">Your Firstname</string>
+    <string name="age">Your age</string>
+    <string name="skills">Your skillfield</string>
+    <string name="phone">Your phone number</string>
+    <string name="selection_title">Your selection</string>
+    <string name="call_button">Call this number</string>
+    <string name="go_call_button">Go to the third view</string>
+
+
+</resources>

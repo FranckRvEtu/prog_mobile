@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name" translatable="false">app</string>
+    <string name="label_name">Entrez votre nom </string>
+    <string name="label_firstname">Entrez votre prénom</string>
+    <string name="label_age">Entrez votre âge</string>
+    <string name="label_skills">Entrez votre domaine de compétences</string>
+    <string name="label_phone">Entrez votre numéro de téléphone</string>
+    <string name="valid_button">Valider</string>
+    <string name="confirm_button">Confirmer</string>
+    <string name="hint_name">Dupont</string>
+    <string name="hint_firstname">Jean</string>
+    <string name="hint_age">60</string>
+    <string name="hint_skills">Etudiant</string>
+    <string name="hint_phone">+33 6/7 xx xx xx xx</string>
+    <string name="dialog_title">Êtes-vous sûr des infos ?</string>
+    <string name="positive_button">Je confirme !</string>
+    <string name="negative_button">Annuler</string>
+    <string name="name_text">Votre nom :</string>
+    <string name="firstname_text">Votre prénom :</string>
+    <string name="age">Votre âge :</string>
+    <string name="skills">Votre domaine : </string>
+    <string name="phone">Votre n° de téléphone : </string>
+    <string name="selection_title">Votre sélection</string>
+    <string name="call_button">Appeler le numéro</string>
+    <string name="go_call_button">Aller à la troisième vue</string>
+
+</resources>
