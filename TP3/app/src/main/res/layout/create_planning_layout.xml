@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/create_planning_layout"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_title"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginBottom="50dp"
+        />
+
+    <include
+        layout="@layout/reusable_text_input"
+        android:id="@+id/first_input"
+        />
+    <include
+        android:id="@+id/second_input"
+        layout="@layout/reusable_text_input"
+        />
+    <include
+        layout="@layout/reusable_text_input"
+        android:id="@+id/third_input"
+        />
+    <include
+        android:id="@+id/fourth_input"
+        layout="@layout/reusable_text_input"
+        />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_planning_button"
+        android:text="@string/submit_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:enabled="false"
+        />
+
+</LinearLayout>

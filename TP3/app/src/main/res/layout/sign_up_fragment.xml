@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/signUpFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/signUpLinear"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_title"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp"
+            />
+
+        <include
+            layout="@layout/reusable_text_input"
+            android:id="@+id/login_input"
+
+            />
+
+        <include
+            android:id="@+id/password_input"
+            layout="@layout/reusable_text_input"
+
+            />
+
+        <include
+            android:id="@+id/firstname_input"
+            layout="@layout/reusable_text_input"
+            />
+
+        <include
+            android:id="@+id/lastname_input"
+            layout="@layout/reusable_text_input"
+            />
+
+        <include
+            android:id="@+id/birthdate"
+            layout="@layout/reusable_text_input"
+            />
+
+        <include
+            android:id="@+id/phone_input"
+            layout="@layout/reusable_text_input"
+            />
+        <include
+            android:id="@+id/mail_input"
+            layout="@layout/reusable_text_input"
+
+            />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            app:chipSpacingHorizontal="10dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/sportChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_chip"
+                android:checkable="true"
+                />
+            <com.google.android.material.chip.Chip
+                android:id="@+id/musicChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/music_chip"
+                android:checkable="true"
+                />
+            <com.google.android.material.chip.Chip
+                android:id="@+id/movieChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/movie_chip"
+                android:checkable="true"
+                />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/readingChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reading_chip"
+                android:checkable="true"
+                />
+
+        </com.google.android.material.chip.ChipGroup>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        app:layout_constraintTop_toBottomOf="@id/signUpLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitSignUpButton"
+        android:text="@string/submit_button"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="25dp"
+        android:enabled="false"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchSignUpText"
+        app:layout_constraintTop_toBottomOf="@id/submitSignUpButton"
+        android:text="@string/switch_to_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textStyle="italic"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

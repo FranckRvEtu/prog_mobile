@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/consult_planning_layout"
+    android:layout_marginTop="20dp"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consult_title"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"
+        />
+
+    <TextView
+        android:id="@+id/slot1_text"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_hour"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        />
+    <TextView
+        android:id="@+id/slot2_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/second_hour"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        />
+    <TextView
+        android:id="@+id/slot3_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/third_hour"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        />
+    <TextView
+        android:id="@+id/slot4_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fourth_hour"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+</LinearLayout>
